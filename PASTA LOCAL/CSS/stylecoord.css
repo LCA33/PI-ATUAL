@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap')
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">)
-*{
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap') @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"rel="stylesheet">) * {
 	margin: 0;
 	padding: 0;
 	background-color: #ffffff;
@@ -11,12 +9,13 @@
 label {
 	font-family: 'Courier New', Courier, monospace;
 }
+
 h2 {
 	font-family: 'kdam Thmor Pro', sans-serif;
 
 }
 
-body {	
+body {
 	background-image: url(../IMAGENS/istockphoto-1369987284-612x612.jpg);
 	width: 100%;
 	height: 100vh;
@@ -32,14 +31,14 @@ body {
 	text-align: center;
 }
 
-section {
-	font-family: Arial, Helvetica, sans-serif;
+span {
+	color: #B22222;
 }
 
-
 section {
+	font-family: Arial, Helvetica, sans-serif;
 	padding: 35px;
-	height: 60%;
+	height: 35%;
 	width: 70%;
 	display: flex;
 	background-color: floralwhite;
@@ -96,42 +95,11 @@ section {
 
 }
 
-#email:hover {
+#segmento:hover, #candidato:hover, #inputTel:hover, #inputIdent:hover, #tipo:hover {
 	background-color: rgb(106, 189, 236);
 	transition: 0.5s;
 	opacity: 0.7;
 }
-
-#segmento:hover {
-	background-color: rgb(106, 189, 236);
-	transition: 0.5s;
-	opacity: 0.7;
-}
-
-#candidato:hover {
-	background-color: rgb(106, 189, 236);
-	transition: 0.5s;
-	opacity: 0.7;
-}
-
-#inputTel:hover {
-	background-color: rgb(106, 189, 236);
-	transition: 0.5s;
-	opacity: 0.7;
-}
-
-#inputIdent:hover {
-	background-color: rgb(106, 189, 236);
-	transition: 0.5s;
-	opacity: 0.7;
-}
-
-#tipo:hover {
-	background-color: rgb(106, 189, 236);
-	transition: 0.5s;
-	opacity: 0.7;
-}
-
 
 .text1 {
 	height: 30px;
@@ -143,60 +111,26 @@ section {
 	margin-left: 2px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
-}
-
-#email {
-	height: 30px;
-	width: 250px;
-	font-size: 17px;
-	font-family: Arial, Helvetica, sans-serif
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
 }
 
 .text3 {
 	height: 25px;
 	width: 250px;
 	font-size: 17px;
-	font-family: Arial, Helvetica, sans-serif
-	border: 0.1rem, solid;
+	font-family: Arial, Helvetica, sans-serif border: 0.1rem, solid;
 	box-shadow: 3px 0px 7px rgb(11, 163, 143);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
 }
 
 #tipo {
-	height:30px;
-	width: auto;
-	font-size: 17px;
-	font-family: Arial, Helvetica, sans-serif;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	padding-top: 5px;
-	padding-left: 5px;
-}
-
-
-.text4 {
 	height: 25px;
 	width: auto;
 	font-size: 17px;
 	font-family: Arial, Helvetica, sans-serif;
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
 }
 
 #segmento {
@@ -209,8 +143,6 @@ section {
 	box-shadow: 3px 0px 7px rgb(11, 163, 143);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding-top: 5px;
-	padding-left: 5px;
 
 }
 
@@ -221,8 +153,6 @@ fieldset {
 	height: 70px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-
-
 }
 
 .segmento {
@@ -231,26 +161,6 @@ fieldset {
 	justify-content: space-between;
 	padding: 5px 5px;
 
-}
-
-.candidato {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px 5px;
-}
-
-#candidato {
-	height: 25px;
-	width: auto;
-	font-family: Arial, Helvetica, sans-serif;
-	border: 0.1rem, solid;
-	border-radius: 5px, solid;
-	font-size: 17px;
-	text-align: center;
-	align-items: center;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	padding: auto;
 }
 
 .etapamunicipal {
@@ -303,7 +213,9 @@ fieldset {
 
 }
 
-#botao1:hover, #botao2:hover, #botao3{
+
+
+#botao1:hover, #botao2:hover, #botao3 {
 	background-color: rgb(44, 241, 26);
 	transition: 0.5s;
 	opacity: 0.7;
@@ -311,7 +223,7 @@ fieldset {
 	-moz-border-radius: 5px;
 }
 
-#retorna:focus{
+#retorna:focus {
 	transition: 0.5s;
 	opacity: 0.7;
 	-webkit-border-radius: 5px;
@@ -322,7 +234,7 @@ nav {
 	width: 120%;
 }
 
-ul{
+ul {
 	display: flex;
 	width: 80%;
 	justify-content: flex-end;
@@ -377,4 +289,3 @@ li {
 	border: 2px solid black;
 	border-radius: 6px;
 }
-

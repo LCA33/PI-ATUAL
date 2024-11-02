@@ -8,12 +8,11 @@
 
 label {
 	font-family: 'Courier New', Courier, monospace;
-	text-align: center;
-	margin-bottom: 45px;
 }
 
 h2 {
 	font-family: 'kdam Thmor Pro', sans-serif;
+
 }
 
 body {
@@ -32,29 +31,32 @@ body {
 	text-align: center;
 }
 
+span {
+	color: #B22222;
+}
+
 section {
-	padding: 55px;
-	height: 45%;
-	width: 70%;
-	background-color: floralwhite;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 45px;
-	background-size: contain;
-	opacity: 0.7;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.etapalocal {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: left;
-	padding: 10px;
-	color: rgb(4, 4, 85);
-	font-size: 17px;
-	line-height: 30%;
-	margin-left: 10px;
-	margin-top: 0em;
+
+section {
+	padding: 35px;
+	height: 60%;
+	width: 70%;
+	display: flex;
+	background-color: floralwhite;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-size: cover;
+	opacity: 0.7;
+
 }
+
+/*.input-single {
+	position: relative;
+	margin: 20px 0;
+}*/
 
 .principal {
 	font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +67,7 @@ section {
 	margin: 10px;
 	font-weight: 400;
 	text-decoration: underline;
+
 }
 
 .titulo {
@@ -79,6 +82,7 @@ section {
 }
 
 .form {
+
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: left;
 	padding: 5px;
@@ -88,7 +92,32 @@ section {
 	line-height: 10%;
 }
 
-#inputName:hover, .inputName:hover {
+#inputName:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+
+}
+
+#email:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#segmento:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#candidato:hover {
+	background-color: rgb(106, 189, 236);
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#inputTel:hover {
 	background-color: rgb(106, 189, 236);
 	transition: 0.5s;
 	opacity: 0.7;
@@ -106,80 +135,95 @@ section {
 	opacity: 0.7;
 }
 
-#text1 {
-	height: 8em;
-	width: 100px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	margin-left: 2px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	padding: 5px;
-	text-align: center;
-}
 
-.InputName {
-	height: 1.5em;
-	width: 300px;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	margin-left: 2px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	padding: 5px;
-	text-align: left;
-}
-
-#msg {
-	height: 7.5em;
-	width: 450px;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	margin-left: 2px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	padding: 5px;
-	text-align: left;
-	padding-top: 1px;
-	padding-left: 10px;
-
-}
-
-#title {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: left;
-	padding: 10px;
-	color: rgb(4, 4, 85);
+.text1 {
+	height: 30px;
+	width: 500px;
 	font-size: 17px;
-	line-height: 30%;
-	margin-left: 10px;
-	margin-top: 5em;
-
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	margin-left: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
 }
 
-inputName {
-	text-align: left;
-	font-size: 10px;
+#email {
+	height: 30px;
+	width: 250px;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.text3 {
+	height: 25px;
+	width: 250px;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
 }
 
 #tipo {
-	height: 1.5em;
-	width: 300px;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	border: 0.1rem, solid;
-	box-shadow: 3px 0px 7px rgb(11, 163, 143);
-	margin-left: 2px;
+	height: 30px;
+	width: auto;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding: 5px;
-	text-align: left;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+
+.text4 {
+	height: 25px;
+	width: auto;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0.1rem, solid;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#segmento {
+	height: 25px;
+	width: auto;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0.1rem, solid;
+	text-align: center;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+
+}
+
+fieldset {
+	padding: 5px 5px;
+	float: left;
+	width: 70%;
+	height: 70px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+
 }
 
 .segmento {
@@ -187,6 +231,27 @@ inputName {
 	align-items: center;
 	justify-content: space-between;
 	padding: 5px 5px;
+
+}
+
+.candidato {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 5px;
+}
+
+#candidato {
+	height: 25px;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0.1rem, solid;
+	border-radius: 5px, solid;
+	font-size: 17px;
+	text-align: center;
+	align-items: center;
+	box-shadow: 3px 0px 7px rgb(11, 163, 143);
+	padding: auto;
 }
 
 .etapamunicipal {
@@ -236,9 +301,10 @@ inputName {
 	font-weight: bold;
 	margin-left: 300px;
 	margin-top: 20px;
+
 }
 
-#botao1:hover, #botao2:hover {
+#botao1:hover, #botao2:hover, #botao3 {
 	background-color: rgb(44, 241, 26);
 	transition: 0.5s;
 	opacity: 0.7;
@@ -267,10 +333,20 @@ ul {
 	color: brown;
 }
 
+.etapalocal {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px;
+	color: rgb(4, 4, 85);
+	font-size: 17px;
+	line-height: 30%;
+	margin-left: 10px;
+	margin-top: 0em;
+}
 
 li {
 	margin-right: 30px;
-	height: 50px;
+	height: 30px;
 	width: auto;
 	color: blue;
 	font-size: 8px;
@@ -302,3 +378,4 @@ li {
 	border: 2px solid black;
 	border-radius: 6px;
 }
+
